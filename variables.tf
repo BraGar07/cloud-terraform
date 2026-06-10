@@ -43,3 +43,11 @@ variable "ingress_ports_list" {
   description = "Lista de puertos para reglas de ingreso en el Security Group"
   type        = list(number)
 }
+
+variable "access_key" {
+  
+}
+
+variable "secret_key" {
+  
+}
